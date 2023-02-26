@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*navbar*/
+.navbar {
+  background-color: none;
+}
+
+
+@media only screen and (max-width: 990px) {
+  .navbar .collapse {
+    background-color: rgba(223, 162, 106, 0.877);
+    
+  }
+
+  .navbar  .btn{
+    background-color: rgba(211, 142, 77, 0.877);
+    width: 50%;
+    margin-left: 26%;
+  }
+
+   .navbar  .btn:hover{
+    background-color: rgba(221, 176, 134, 0.877);
+    transition: 0.5s;
+
+   }
+ 
+
+  
+}
+
+/*Hero*/
+
+.hero{
+  height: 86vh;
+  background-color: black;
+  background-image: url("../src/images/home.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+
+
+}
+@media only screen and (max-width: 500px) {
+    .hero h1{
+      font-size: 19px;
+
+    }
+
+    .hero h4{
+      font-size: 13px;
+
+    }
+  }
+ 
+/*Main*/
+@media only screen and (min-width: 1400px) {
+
+  .main .mainCard{
+    
+    margin-top: 10%;
+  
+
+   
+  }
+ 
+}
+
+/*Portfolio*/
+@media only screen and (max-width: 300px) {
+
+
+.portfolio .btn{
+
+  width:"100%";
+  font-size: 7px;
+}
+
+}
+
+.videoBox{
+  height: "80vh";
+}
+.videoBox .video{
+  width: 100%;
+  height: "80vh";
+  background-image: url('../src/images/video.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
